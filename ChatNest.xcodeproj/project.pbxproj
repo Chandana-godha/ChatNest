@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170649E5201C3F4000B5F7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170649E4201C3F4000B5F7DD /* AppDelegate.swift */; };
+		170649E7201C3F4000B5F7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170649E6201C3F4000B5F7DD /* ViewController.swift */; };
+		170649EA201C3F4000B5F7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170649E8201C3F4000B5F7DD /* Main.storyboard */; };
+		170649EC201C3F4000B5F7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170649EB201C3F4000B5F7DD /* Assets.xcassets */; };
+		170649EF201C3F4000B5F7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170649ED201C3F4000B5F7DD /* LaunchScreen.storyboard */; };
+		170649FA201C3F4000B5F7DD /* ChatNestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170649F9201C3F4000B5F7DD /* ChatNestTests.swift */; };
+		17064A05201C3F4000B5F7DD /* ChatNestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17064A04201C3F4000B5F7DD /* ChatNestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170649F6201C3F4000B5F7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170649D9201C3F4000B5F7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170649E0201C3F4000B5F7DD;
+			remoteInfo = ChatNest;
+		};
+		17064A01201C3F4000B5F7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170649D9201C3F4000B5F7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170649E0201C3F4000B5F7DD;
+			remoteInfo = ChatNest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170649E1201C3F4000B5F7DD /* ChatNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		170649E4201C3F4000B5F7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		170649E6201C3F4000B5F7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170649E9201C3F4000B5F7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170649EB201C3F4000B5F7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170649EE201C3F4000B5F7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170649F0201C3F4000B5F7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170649F5201C3F4000B5F7DD /* ChatNestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatNestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		170649F9201C3F4000B5F7DD /* ChatNestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNestTests.swift; sourceTree = "<group>"; };
+		170649FB201C3F4000B5F7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17064A00201C3F4000B5F7DD /* ChatNestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatNestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17064A04201C3F4000B5F7DD /* ChatNestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNestUITests.swift; sourceTree = "<group>"; };
+		17064A06201C3F4000B5F7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170649DE201C3F4000B5F7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649F2201C3F4000B5F7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649FD201C3F4000B5F7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170649D8201C3F4000B5F7DD = {
+			isa = PBXGroup;
+			children = (
+				170649E3201C3F4000B5F7DD /* ChatNest */,
+				170649F8201C3F4000B5F7DD /* ChatNestTests */,
+				17064A03201C3F4000B5F7DD /* ChatNestUITests */,
+				170649E2201C3F4000B5F7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170649E2201C3F4000B5F7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170649E1201C3F4000B5F7DD /* ChatNest.app */,
+				170649F5201C3F4000B5F7DD /* ChatNestTests.xctest */,
+				17064A00201C3F4000B5F7DD /* ChatNestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170649E3201C3F4000B5F7DD /* ChatNest */ = {
+			isa = PBXGroup;
+			children = (
+				170649E4201C3F4000B5F7DD /* AppDelegate.swift */,
+				170649E6201C3F4000B5F7DD /* ViewController.swift */,
+				170649E8201C3F4000B5F7DD /* Main.storyboard */,
+				170649EB201C3F4000B5F7DD /* Assets.xcassets */,
+				170649ED201C3F4000B5F7DD /* LaunchScreen.storyboard */,
+				170649F0201C3F4000B5F7DD /* Info.plist */,
+			);
+			path = ChatNest;
+			sourceTree = "<group>";
+		};
+		170649F8201C3F4000B5F7DD /* ChatNestTests */ = {
+			isa = PBXGroup;
+			children = (
+				170649F9201C3F4000B5F7DD /* ChatNestTests.swift */,
+				170649FB201C3F4000B5F7DD /* Info.plist */,
+			);
+			path = ChatNestTests;
+			sourceTree = "<group>";
+		};
+		17064A03201C3F4000B5F7DD /* ChatNestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17064A04201C3F4000B5F7DD /* ChatNestUITests.swift */,
+				17064A06201C3F4000B5F7DD /* Info.plist */,
+			);
+			path = ChatNestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170649E0201C3F4000B5F7DD /* ChatNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17064A09201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNest" */;
+			buildPhases = (
+				170649DD201C3F4000B5F7DD /* Sources */,
+				170649DE201C3F4000B5F7DD /* Frameworks */,
+				170649DF201C3F4000B5F7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatNest;
+			productName = ChatNest;
+			productReference = 170649E1201C3F4000B5F7DD /* ChatNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170649F4201C3F4000B5F7DD /* ChatNestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17064A0C201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNestTests" */;
+			buildPhases = (
+				170649F1201C3F4000B5F7DD /* Sources */,
+				170649F2201C3F4000B5F7DD /* Frameworks */,
+				170649F3201C3F4000B5F7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170649F7201C3F4000B5F7DD /* PBXTargetDependency */,
+			);
+			name = ChatNestTests;
+			productName = ChatNestTests;
+			productReference = 170649F5201C3F4000B5F7DD /* ChatNestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		170649FF201C3F4000B5F7DD /* ChatNestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17064A0F201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNestUITests" */;
+			buildPhases = (
+				170649FC201C3F4000B5F7DD /* Sources */,
+				170649FD201C3F4000B5F7DD /* Frameworks */,
+				170649FE201C3F4000B5F7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17064A02201C3F4000B5F7DD /* PBXTargetDependency */,
+			);
+			name = ChatNestUITests;
+			productName = ChatNestUITests;
+			productReference = 17064A00201C3F4000B5F7DD /* ChatNestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170649D9201C3F4000B5F7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chandana;
+				TargetAttributes = {
+					170649E0201C3F4000B5F7DD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					170649F4201C3F4000B5F7DD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170649E0201C3F4000B5F7DD;
+					};
+					170649FF201C3F4000B5F7DD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170649E0201C3F4000B5F7DD;
+					};
+				};
+			};
+			buildConfigurationList = 170649DC201C3F4000B5F7DD /* Build configuration list for PBXProject "ChatNest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170649D8201C3F4000B5F7DD;
+			productRefGroup = 170649E2201C3F4000B5F7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170649E0201C3F4000B5F7DD /* ChatNest */,
+				170649F4201C3F4000B5F7DD /* ChatNestTests */,
+				170649FF201C3F4000B5F7DD /* ChatNestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170649DF201C3F4000B5F7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170649EF201C3F4000B5F7DD /* LaunchScreen.storyboard in Resources */,
+				170649EC201C3F4000B5F7DD /* Assets.xcassets in Resources */,
+				170649EA201C3F4000B5F7DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649F3201C3F4000B5F7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649FE201C3F4000B5F7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170649DD201C3F4000B5F7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170649E7201C3F4000B5F7DD /* ViewController.swift in Sources */,
+				170649E5201C3F4000B5F7DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649F1201C3F4000B5F7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170649FA201C3F4000B5F7DD /* ChatNestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170649FC201C3F4000B5F7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17064A05201C3F4000B5F7DD /* ChatNestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170649F7201C3F4000B5F7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170649E0201C3F4000B5F7DD /* ChatNest */;
+			targetProxy = 170649F6201C3F4000B5F7DD /* PBXContainerItemProxy */;
+		};
+		17064A02201C3F4000B5F7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170649E0201C3F4000B5F7DD /* ChatNest */;
+			targetProxy = 17064A01201C3F4000B5F7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170649E8201C3F4000B5F7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170649E9201C3F4000B5F7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		170649ED201C3F4000B5F7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170649EE201C3F4000B5F7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17064A07201C3F4000B5F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17064A08201C3F4000B5F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17064A0A201C3F4000B5F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17064A0B201C3F4000B5F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17064A0D201C3F4000B5F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatNest.app/ChatNest";
+			};
+			name = Debug;
+		};
+		17064A0E201C3F4000B5F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatNest.app/ChatNest";
+			};
+			name = Release;
+		};
+		17064A10201C3F4000B5F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatNest;
+			};
+			name = Debug;
+		};
+		17064A11201C3F4000B5F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatNestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.ChatNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatNest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170649DC201C3F4000B5F7DD /* Build configuration list for PBXProject "ChatNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17064A07201C3F4000B5F7DD /* Debug */,
+				17064A08201C3F4000B5F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17064A09201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17064A0A201C3F4000B5F7DD /* Debug */,
+				17064A0B201C3F4000B5F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17064A0C201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17064A0D201C3F4000B5F7DD /* Debug */,
+				17064A0E201C3F4000B5F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17064A0F201C3F4000B5F7DD /* Build configuration list for PBXNativeTarget "ChatNestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17064A10201C3F4000B5F7DD /* Debug */,
+				17064A11201C3F4000B5F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170649D9201C3F4000B5F7DD /* Project object */;
+}
