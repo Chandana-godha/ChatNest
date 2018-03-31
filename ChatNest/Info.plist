@@ -18,6 +18,8 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -41,5 +43,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow ChatNest to access Location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow ChatNest to access Location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow ChatNest to access Location When in Use</string>
 </dict>
 </plist>
